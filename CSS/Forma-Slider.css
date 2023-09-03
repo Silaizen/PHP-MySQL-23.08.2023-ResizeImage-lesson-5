@@ -1,0 +1,70 @@
+form {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+input[type="file"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+form button[type="button"],
+form button[type="submit"] {
+  margin-top: 10px; /* Добавьте желаемый отступ сверху */
+}
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Стили для формы создания слайдера */
+form:nth-of-type(1) {
+  background-color: #fff;
+}
+
+/* Стили для формы выбора слайдера и файла */
+form:nth-of-type(2) {
+  background-color: #f9f9f9;
+}
+
+.preview-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-image {
+  width: 100px; /* Замените на ваш желаемый размер */
+  height: 100px; /* Замените на ваш желаемый размер */
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* Стили для формы удаления слайдера */
+form:nth-of-type(3) {
+  background-color: #f5f5f5;
+}

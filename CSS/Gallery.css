@@ -1,0 +1,84 @@
+/* Стилизация активной картинки */
+.carousel-small-image.active {
+  border: 2px solid #007bff; /* Цвет рамки для выбранного изображения */
+  transform: scale(1.1); /* Увеличение активной картинки */
+  transition: all 0.3s ease; /* Плавное изменение размера */
+  max-width: 100%;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-button,
+.next-button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #0056b3;
+  
+}
+
+/* Основной контейнер слайдера */
+.carousel-container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+/* Стили для слайдера */
+.carousel-slider {
+  border: 1px solid #ccc; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  background-color: #d7812a; /* Фон слайдера */
+  padding: 5px; 
+  margin: 20px 0; 
+}
+
+/* Стили для кнопок "Previous" и "Next" */
+.prev-button,
+.next-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+
+
+/* Стили для имени слайдера */
+.slider-name {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Стили для маленьких изображений в слайдере */
+.carousel-small-image {
+  max-width: 100px; /* Максимальная ширина маленьких изображений */
+  margin: 0 5px; 
+  border: 2px solid transparent; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+
+.slider-images {
+  flex-grow: 1; 
+  overflow: hidden; 
+  display: flex; 
+  justify-content: space-between; 
+  margin: 10px 0; /
+}
+
